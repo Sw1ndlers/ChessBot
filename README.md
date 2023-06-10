@@ -6,12 +6,12 @@ Recommend to use the precompiled build in releases
 ## Features
 
 ### Util
-> Auto Download Stockfish\n
-> Auto Save Config\n
-> Modify Stockfish Settings\n
+- Auto Download Stockfish
+- Auto Save Config
+- Modify Stockfish Settings
 
 ### Game 
-> Autoplay
-> Auto Join New Game
-> Draw Opponents Best Moves
-> Elo Randomization
+- Autoplay
+- Auto Join New Game
+- Draw Opponent's Best Moves
+- Elo Randomization
