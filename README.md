@@ -6,9 +6,9 @@ Recommend to use the precompiled build in releases
 ## Features
 
 ### Util
-> Auto Download Stockfish
-> Auto Save Config
-> Modify Stockfish Settings
+> Auto Download Stockfish\n
+> Auto Save Config\n
+> Modify Stockfish Settings\n
 
 ### Game 
 > Autoplay
