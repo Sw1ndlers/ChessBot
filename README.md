@@ -3,6 +3,8 @@ A Chess Bot that uses a combination of Selenium and Stockfish to play on chess.c
 
 Recommend to use the precompiled build in releases
 
+Config will automatically save as long as you exit out of the window and not the console
+
 ## Features
 
 ### Game 
