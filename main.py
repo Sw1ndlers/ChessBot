@@ -19,7 +19,6 @@ import shutil
 import threading
 import random
 import string
-from tqdm import tqdm
 
 from stockfish import Stockfish, StockfishException
 
@@ -59,7 +58,7 @@ engineOptimization = {
 }
 
 
-stockfishUrl = 'https://stockfishchess.org/files/stockfish_15_win_x64_bmi2.zip'
+stockfishUrl = 'https://files.stockfishchess.org/files/stockfish_15.1_win_x64_avx2.zip'
 
 def downloadStockfish():
     if os.path.exists("stockfish.exe"):
@@ -77,11 +76,13 @@ def downloadStockfish():
     with zipfile.ZipFile("stockfish.zip", 'r') as file:
         file.extractall("")
 
-    shutil.move("stockfish_15_win_x64_bmi2\stockfish_15_x64_bmi2.exe", "stockfish.exe")
+    # shutil.unpack_archive("stockfish.zip", "/")
+
+    shutil.move("stockfish_15.1_win_x64_avx2\stockfish-windows-2022-x86-64-avx2.exe", "stockfish.exe")
 
     print("Sucessfully downloaded stockfish")
 
-    shutil.rmtree('stockfish_15_win_x64_bmi2')
+    shutil.rmtree('stockfish_15.1_win_x64_avx2')
     os.remove("stockfish.zip")
 
 def updateStockfishParams(*args):
