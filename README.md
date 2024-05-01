@@ -1,3 +1,7 @@
+# Disclaimer
+
+This is unmaintaned, it may or may not work correctly
+
 # ChessBot
 A Chess Bot that uses a combination of Selenium and Stockfish to play on chess.com
 
