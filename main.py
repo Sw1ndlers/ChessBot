@@ -58,7 +58,7 @@ engineOptimization = {
 }
 
 
-stockfishUrl = 'https://files.stockfishchess.org/files/stockfish_15.1_win_x64_avx2.zip'
+stockfishUrl = 'https://drive.usercontent.google.com/download?id=1a1TZmkX4xOgtXwXhH7CvzO2v4Xt_sVhP&export=download&authuser=0&confirm=t&uuid=29c3d813-459b-4d3d-bfbf-32a21eb350e0&at=APZUnTVbEcQIAba-vP8vKvx0SRke:1722593436955'
 
 def downloadStockfish():
     if os.path.exists("stockfish.exe"):
