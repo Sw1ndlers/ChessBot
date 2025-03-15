@@ -24,6 +24,9 @@ Config will automatically save as long as you exit out of the window and not the
 
 ## Showcase
 
+https://github.com/user-attachments/assets/b2f321d4-6333-48a8-84a1-c8eba1a87d0b
+
+
 ![chess1](https://github.com/Sw1ndlers/ChessBot/assets/103692349/8195f2c8-4023-4783-9c36-564870fad108)
 ![chess2](https://github.com/Sw1ndlers/ChessBot/assets/103692349/08ce18d0-c141-404b-819f-02b0920ebaa6)
 ![chess3](https://github.com/Sw1ndlers/ChessBot/assets/103692349/293b9f99-7a41-4181-80d8-5d3913c944cf)
